@@ -1,1 +1,13 @@
-<p>dashboard works!</p>
+<h1>Dashboard</h1><hr>
+
+<p>
+    Esta apgina solo funciona si estas autenticado
+</p>
+
+<h4>User info</h4>
+<pre>{{ usuario | json }}</pre>
+
+<button (click)="logout()">
+    Cerrar sesion
+</button>
+
